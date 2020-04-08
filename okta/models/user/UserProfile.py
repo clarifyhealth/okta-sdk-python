@@ -11,7 +11,9 @@ class UserProfile:
         'manager': str,
         'startDate':str,
         'employeeNumber':str,
-        'title':str
+        'title':str,
+        'department':str,
+        'division':str
     }
 
     def __init__(self):
@@ -27,3 +29,5 @@ class UserProfile:
         self.startDate = None
         self.employeeNumber = None
         self.title = None
+        self.department = None
+        self.division = None
