@@ -13,7 +13,12 @@ class UserProfile:
         'employeeNumber':str,
         'title':str,
         'department':str,
-        'division':str
+        'division':str,
+        'streetAddress':str,
+        'city':str,
+        'state':str,
+        'zipCode':str,
+        'countryCode':str
     }
 
     def __init__(self):
@@ -31,3 +36,8 @@ class UserProfile:
         self.title = None
         self.department = None
         self.division = None
+        self.streetAddress = None
+        self.city = None
+        self.state = None
+        self.zipCode = None
+        self.countryCode = None
