@@ -6,6 +6,7 @@ class UserProfile:
         'secondEmail': str,
         'firstName': str,
         'lastName': str,
+        'displayName':str,
         'mobilePhone': str,
         'userType' : str,
         'manager': str,
@@ -28,6 +29,7 @@ class UserProfile:
         self.secondEmail = None  # str
         self.firstName = None  # str
         self.lastName = None  # str
+        self.displayName = None
         self.mobilePhone = None  # str
         self.userType = None
         self.manager = None
