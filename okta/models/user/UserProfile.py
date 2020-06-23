@@ -19,7 +19,8 @@ class UserProfile:
         'city':str,
         'state':str,
         'zipCode':str,
-        'countryCode':str
+        'countryCode':str,
+        'PHITrained':str
     }
 
     def __init__(self):
@@ -43,3 +44,4 @@ class UserProfile:
         self.state = None
         self.zipCode = None
         self.countryCode = None
+        self.PHITrained = None
